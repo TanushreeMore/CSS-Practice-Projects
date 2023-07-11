@@ -1,5 +1,5 @@
 
-// import { RouterConnection } from "./router/RouterConnection";
+import { RouterConnection } from "./router/RouterConnection";
 // import Loading from './components/loading/Loading'
 // import EqualSizeColumn from "./components/equal_size_column/EqualSizeColumn";
 // import TextCenter from "./components/text_center_inside_a_div_block/TextCenter";
@@ -14,14 +14,15 @@
 // import SlideImageOnHover from "./components/slide_image_on_hover/SlideImageOnHover";
 // import ToggleIcon from "./components/toggle_icon/ToggleIcon";
 // import FancyBoxZoomEffect from "./components/fancy_box_zoom_effect/FancyBoxZoomEffect";
-import LoadingColorChangingBar from "./components/loading_color_changing_bar/LoadingColorChangingBar";
+// import LoadingColorChangingBar from "./components/loading_color_changing_bar/LoadingColorChangingBar";
+// import JumpingText3D from "./components/jumping_text_3d/JumpingText3D";
 
 
 function App() {
   return (
     <>
     
-      {/* <RouterConnection /> */}
+      <RouterConnection />
     
       {/* <Loading /> */}
 
@@ -51,7 +52,9 @@ function App() {
 
       {/* <FancyBoxZoomEffect /> */}
 
-      <LoadingColorChangingBar />
+      {/* <LoadingColorChangingBar /> */}
+
+      {/* <JumpingText3D /> */}
 
     </>
   );

@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import React from 'react'
 
 import Home from "../Home";
 
@@ -14,6 +13,7 @@ import Text3D from "../components/text_3d/Text3D";
 import ImageHoverEffect2 from "../components/image_hover_effect2/ImageHoverEffect2";
 import CardFlipAnimation3D from "../components/card_flip_animation_3d/CardFlipAnimation3D";
 import LoadingAnimation from "../components/loading_animation/LoadingAnimation";
+import JumpingText3D from "../components/jumping_text_3d/JumpingText3D";
 
 
 
@@ -44,6 +44,8 @@ export const RouterConnection = () => {
                 <Route exact path="/loading_animation" element={<LoadingAnimation />} />
 
                 <Route exact path="/card_flip_animation_3d" element={<CardFlipAnimation3D />} />
+
+                <Route exact path="/jumping_3d_text" element={<JumpingText3D />} />
                 
                 {/* <Route exact path="/" element={< />} /> */}
                 
