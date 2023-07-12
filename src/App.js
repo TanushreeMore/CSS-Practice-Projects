@@ -1,12 +1,12 @@
 // import { RouterConnection } from "./router/RouterConnection";
-import JumpingText3D from "./components/jumping_text_3d/JumpingText3D";
+import FontAwesomeIcons from "./components/font_awesome_icon/FontAwesomeIcon";
 
 
 function App() {
   return (
     <>
       {/* <RouterConnection /> */}
-      <JumpingText3D />
+      <FontAwesomeIcons />
 
     </>
   );
