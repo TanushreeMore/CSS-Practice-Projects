@@ -16,6 +16,7 @@ import LoadingAnimation from "../components/loading_animation/LoadingAnimation";
 import JumpingText3D from "../components/jumping_text_3d/JumpingText3D";
 import FontAwesomeIcons from "../components/font_awesome_icon/FontAwesomeIcon";
 import SkewedBackground from "../components/skewed_background/SkewedBackground";
+import IsometricText from "../components/isometric_text/IsometricText";
 
 
 
@@ -51,8 +52,10 @@ export const RouterConnection = () => {
 
                 <Route exact path="/font_awesome_icon" element={<FontAwesomeIcons />} />
 
-                <Route exact path="/font_awesome_icon" element={<SkewedBackground />} />
-                
+                <Route exact path="/skewed_background" element={<SkewedBackground />} />
+
+                <Route exact path="/isometric_text" element={<IsometricText />} />
+
                 {/* <Route exact path="/" element={< />} /> */}
                 
           </Routes>

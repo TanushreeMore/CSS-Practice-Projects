@@ -1,12 +1,12 @@
 // import { RouterConnection } from "./router/RouterConnection";
-import SkewedBackground from "./components/skewed_background/SkewedBackground";
+import IsometricText from "./components/isometric_text/IsometricText";
 
 
 function App() {
   return (
     <>
       {/* <RouterConnection /> */}
-      <SkewedBackground />
+      <IsometricText />
 
     </>
   );
