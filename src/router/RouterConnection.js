@@ -15,6 +15,7 @@ import CardFlipAnimation3D from "../components/card_flip_animation_3d/CardFlipAn
 import LoadingAnimation from "../components/loading_animation/LoadingAnimation";
 import JumpingText3D from "../components/jumping_text_3d/JumpingText3D";
 import FontAwesomeIcons from "../components/font_awesome_icon/FontAwesomeIcon";
+import SkewedBackground from "../components/skewed_background/SkewedBackground";
 
 
 
@@ -49,6 +50,8 @@ export const RouterConnection = () => {
                 <Route exact path="/jumping_3d_text" element={<JumpingText3D />} />
 
                 <Route exact path="/font_awesome_icon" element={<FontAwesomeIcons />} />
+
+                <Route exact path="/font_awesome_icon" element={<SkewedBackground />} />
                 
                 {/* <Route exact path="/" element={< />} /> */}
                 

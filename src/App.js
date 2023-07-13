@@ -1,12 +1,12 @@
 // import { RouterConnection } from "./router/RouterConnection";
-import FontAwesomeIcons from "./components/font_awesome_icon/FontAwesomeIcon";
+import SkewedBackground from "./components/skewed_background/SkewedBackground";
 
 
 function App() {
   return (
     <>
       {/* <RouterConnection /> */}
-      <FontAwesomeIcons />
+      <SkewedBackground />
 
     </>
   );
